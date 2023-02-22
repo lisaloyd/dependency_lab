@@ -9,5 +9,11 @@ public class Robot {
 
     //Constructor
     public Robot() {
+        this.name = "Charger";
+        this.weaponName = "Sword";
+        this.weaponPower = 50;
+    }
+    public void Attack(){
+        System.out.println(this.name + " attacks with their " + this.weaponName + " for " + this.weaponPower + " damage!"):
     }
 }
